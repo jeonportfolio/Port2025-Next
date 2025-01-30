@@ -87,6 +87,16 @@ export const introText = {
 export const portText = [
     {
         num: "01",
+        title: "한눈에 요약봇(진행중)",
+        desc: "긴 글을 입력하면 요약해 주는 사이트입니다. 항목당 제목을 바꿀 수 있으며 각각의 항목은 사이드 바에 저장됩니다. 삭제와 추가 기능이 있습니다.",
+        img: port09,
+        code: "https://github.com/jeonportfolio/Gpt-Summary-Site",
+        view: "https://summary-1e187.web.app/",
+        name: "Gpt 활용 요약 사이트",
+    },
+
+    {
+        num: "02",
         title: "할 일 기록 사이트(React)",
         desc: "할 일을 저장한 후 체크박스를 클릭하면 완료목록에 저장됩니다. 목록은 전체 & 할 일 & 완료로 필터링 됩니다. 입력한 데이터는 저장되며 수정 삭제가 가능합니다.",
         img: port001,
@@ -95,7 +105,7 @@ export const portText = [
         name: "REACT 할 일 기록 사이트",
     },
     {
-        num: "02",
+        num: "03",
         title: "영화검색 사이트(반응형)",
         desc: "Omdb API를 활용해 만든 영화 검색 사이트 입니다. 영화 제목 검색은 영어로만 입력이 가능합니다.",
         img: port06,
@@ -104,7 +114,7 @@ export const portText = [
         name: "영화검색사이트",
     },
     {
-        num: "03",
+        num: "04",
         title: "영화검색 사이트 & AI챗봇 추가",
         desc: "영어로 입력이 가능해 서칭이 불편한 점을 개선하기 위해 Chat Gpt API를 이용해 챗봇을 만들었습니다. 원하는 장르의 영화를 추천받고 해당 영화의 제목을 클릭하면 자동으로 영어제목이 검색창에 입력됩니다.",
         img: port07,
@@ -113,7 +123,7 @@ export const portText = [
         name: "영화검색사이트",
     },
     {
-        num: "04",
+        num: "05",
         title: "나만의 유튜브 사이트(반응형)",
         desc: "자격증 및 개인 학습과정에서 도움을 받았던 영상들을 주제별로 모아놓은 사이트 입니다 유튜브의 검색도 가능하며 영상시청이 가능합니다. ★모바일에서 메뉴 생성은 로고클릭!! ",
         img: port02,
@@ -122,7 +132,7 @@ export const portText = [
         name: "나만의 youtube",
     },
     {
-        num: "05",
+        num: "06",
         title: "블로그 소개 페이지(PC버젼)",
         desc: "HTML/CSS/JavaScript를 사용하여 자격증/AWS/공모전 등 활동 기록들을 소개하는 페이지이며 저의 학습기록들을 기록한 해당 포스팅 열람이 가능합니다. Gsap 애니메이션을 활용하여 사용자 경험을 개선하였습니다. ",
         img: port03,
@@ -131,7 +141,7 @@ export const portText = [
         name: "블로그 소개",
     },
     {
-        num: "06",
+        num: "07",
         title: "게임 소개 페이지 (반응형)",
         desc: "JavaScript를 활용해 만든 3종 게임 소개 페이지입니다. 게임은 PC에서 가능하며 조작법법 설명과 사이트이동이 가능합니다.(새끼거북의 여행 & 지구를 지켜라 & 테트리스)",
         img: port05,
@@ -140,7 +150,7 @@ export const portText = [
         name: "GSAP게임소개",
     },
     {
-        num: "07",
+        num: "08",
         title: "인턴과정 소개 (PC 버젼)",
         desc: "머니스테이션에서 금융 리서치 및 콘텐츠 제작 직무를 수행한 과정과 성과를 보여주는 사이트입니다. Gsap 애니메이션을 사용하였습니다.",
         img: port04,
@@ -150,7 +160,7 @@ export const portText = [
     },
     
     {
-        num: "08",
+        num: "09",
         title: "사회적약자 대중교통 예약시스템",
         desc: "3명으로 구성된 팀 프로젝트로 사회적 약자들이 대중교통 이용에 불편함을 느끼는 것을 개선하고자 진행한 프로젝트입니다. 저는 버스 예약과 채팅 담당을 맡았으며 카카오 맵 & 공공데이터 포털 API 사용하였고 java script & jquery & python flask 서버를 활용하였습니다",
         img: port08,
@@ -159,22 +169,13 @@ export const portText = [
         name: "영화검색사이트",
     },
     {
-        num: "09",
+        num: "10",
         title: "웹디자인기능사 사이트 (PC버젼)",
         desc: "저의 웹디자인기능사 취득과정을 기록한 사이트 입니다. Figma를 사용해 직접 디자인하고  HTML & CSS를 웹디자인기능사 기술을 활용해 만든 사이트입니다. ",
         img: port01,
         code: "https://github.com/jeonportfolio/FIGMA-WEB",
         view: "https://jeonportfolio.github.io/FIGMA-WEB/figma%20portfolio.html",
         name: "웹디자인 기능사",
-    },
-    {
-        num: "10",
-        title: "한눈에 요약봇(진행중)",
-        desc: "",
-        img: port09,
-        code: "https://github.com/jeonportfolio/Gpt-Summary-Site",
-        view: "/",
-        name: "Gpt 활용 요약 사이트",
     },
 ];
 
