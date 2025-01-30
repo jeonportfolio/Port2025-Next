@@ -87,7 +87,7 @@ export const introText = {
 export const portText = [
     {
         num: "01",
-        title: "한눈에 요약봇(진행중)",
+        title: "한눈에 요약봇",
         desc: "긴 글을 입력하면 요약해 주는 사이트입니다. 항목당 제목을 바꿀 수 있으며 각각의 항목은 사이드 바에 저장됩니다. 삭제와 추가 기능이 있습니다.",
         img: port09,
         code: "https://github.com/jeonportfolio/Gpt-Summary-Site",
